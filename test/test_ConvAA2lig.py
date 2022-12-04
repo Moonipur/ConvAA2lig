@@ -35,4 +35,8 @@ def Processing(input, ligname):
     with open(output, 'w', encoding='utf-8') as file:
         file.writelines(data)
 
+print('Test input name: {}'.format(inputf))
+print('Test input name: {}.pdb'.format(ligname))
+print("\n--\n--\n--\n--\nTest process let's start")
 Processing(inputf, ligname)
+print("\n--\n--\n--\n--\nProcess is already finished")
