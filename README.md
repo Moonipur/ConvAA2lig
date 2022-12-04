@@ -2,8 +2,10 @@
 
 The `ConvAA2lig` is a simple program for converting PDB file from Amino acid name to your Ligand name.
 
-# run the script
-python3 ConvAA2lig.py [-h]
+# install program
+chmod +x install.sh
+
+./install.sh
 
 # run test
 cd test
