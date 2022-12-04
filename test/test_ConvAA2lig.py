@@ -37,6 +37,6 @@ def Processing(input, ligname):
 
 print('Test input name: {}'.format(inputf))
 print('Test output name: {}.pdb'.format(ligname))
-print("--\n--\n--\n--\n--\nTest process let's start")
+print("|--|\n|--|\n|--|\n|--|\n|--|\n \/\nTest process let's start")
 Processing(inputf, ligname)
-print("--\n--\n--\n--\n--\nProcess is already finished")
+print("|--|\n|--|\n|--|\n|--|\n|--|\n \/\nProcess is already finished")
