@@ -7,7 +7,7 @@ python3 ConvAA2lig.py [-h]
 
 # run test
 cd test
-python test_ConvAA2lig.py |or| python3 test_ConvAA2lig.py
+python test_ConvAA2lig.py
 
 # usage: ConvAA2lig -n [Name] -i [Input] -o [Output]
 
