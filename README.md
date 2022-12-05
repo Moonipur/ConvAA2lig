@@ -14,7 +14,8 @@ cd test
 
 python test_ConvAA2lig.py
 
-# Usage: ConvAA2lig -n [Name] -i [Input] -o [Output]
+# Usage: 
+ConvAA2lig -n [Name] -i [Input] -o [Output]
 
 # Optional argruments:
     -h, --help      show this help message and exit
