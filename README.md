@@ -7,6 +7,8 @@ chmod +x install.sh
 
 ./install.sh
 
+source ~/.bashrc
+
 # Run test
 cd test
 
