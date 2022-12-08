@@ -24,6 +24,11 @@ ConvAA2lig -n [Name] -i [Input] -o [Output]
     -o [Output]     output directory path
     -v, --version   the lastest version of ConvAA2lig
     
+# Uninstall program
+chmod +x UNINSTALL.sh
+
+./UNINSTALL.sh
+    
 # Author's email:
     moo_sutthittha@hotmail.com (Moonipur)
 
