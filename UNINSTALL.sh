@@ -1,5 +1,7 @@
 #!/bin/bash
 
-Loc=`find "$(cd ..; pwd)" -name "ConvAA2lig.py"`;
+comm=`find "$(cd ..; pwd)" -name "ConvAA2lig.py"`
 
-sed -z 's/alias ConvAA2lig='python3 ${Loc}\n//g' ~/.bashrc 
+Loc=`grep -n "alias ConvAA2lig='python3 ${comm}'" ~/.bashrc | cut -b 1-3`
+
+sed -i sed -i "${Loc}d" ~/.bashrc ~/.bashrc 
