@@ -17,11 +17,11 @@ author's email:
     moo_sutthittha@hotmail.com
 
 The lastest version:
-    ConvAA2lig v0.0.1    
+    ConvAA2lig v0.0.2    
 
 ** Please contact us if you have any questions or problems with the program.'''
 
-version = 'ConvAA2lig v0.0.1'
+version = 'ConvAA2lig v0.0.2'
 
 #Processing
 def Processing(input, output, ligname):
