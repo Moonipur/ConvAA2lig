@@ -15,13 +15,14 @@ cd test
 python test_ConvAA2lig.py
 
 # Usage: 
-ConvAA2lig -n [Name] -i [Input] -o [Output]
+ConvAA2lig -n [Name] -i [Input] -o [Output] --atom [False]
 
 # Optional argruments:
     -h, --help      show this help message and exit
     -n [Name]       ligand name that you want to change
     -i [Input]      input file path (.pdb)
     -o [Output]     output directory path
+    -a, --atom      Turn on/off for sorting atom number (default False; True)
     -v, --version   the lastest version of ConvAA2lig
     
 # Uninstall program
@@ -29,6 +30,9 @@ chmod +x UNINSTALL.sh
 
 ./UNINSTALL.sh
     
+# The lastest version
+    ConvAA2lig v0.0.2
+
 # Author's email:
     moo_sutthittha@hotmail.com (Moonipur)
 
