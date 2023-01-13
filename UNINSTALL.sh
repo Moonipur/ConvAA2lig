@@ -1,6 +1,6 @@
 #!/bin/bash
 
-comm=`find "$(cd ..; pwd)" -name "ConvAA2lig.py"`
+comm=`find "$(pwd)" -name "ConvAA2lig.py"`
 
 Loc=`grep -n "alias ConvAA2lig='python3 ${comm}'" ~/.bashrc | cut -b 1-3`
 
