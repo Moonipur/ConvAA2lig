@@ -6,4 +6,6 @@ Loc=`grep -n "alias ConvAA2lig='python3 ${comm}'" ~/.bashrc | cut -b 1-3`
 
 sed -i "${Loc}d" ~/.bashrc 
 
+source ~/.bashrc
+
 echo "Uninstallation is already finished"
