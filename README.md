@@ -29,6 +29,8 @@ ConvAA2lig -n [Name] -i [Input] -o [Output] --atom [False]
 chmod +x UNINSTALL.sh
 
 ./UNINSTALL.sh
+
+source ~/.bashrc
     
 # Author's email:
     moo_sutthittha@hotmail.com (Moonipur)
