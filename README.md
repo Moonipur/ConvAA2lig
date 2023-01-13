@@ -34,6 +34,6 @@ chmod +x UNINSTALL.sh
     moo_sutthittha@hotmail.com (Moonipur)
 
 # The lastest version:
-    ConvAA2lig v1.0.2    
+    ConvAA2lig v2.0
 
 ** Please contact us if you have any questions or problems with the program.
