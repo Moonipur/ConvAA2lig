@@ -19,7 +19,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument('-n', metavar='Name', type=str, required=True, help="Ligand name that you want to change")
 parser.add_argument('-i', metavar='Input', type=str, required=True, help="Input file path (.pdb)")
 parser.add_argument('-o', metavar='Output', type=str, required=False, help='Output directory path (default: current directory)', default=current_dir)
-parser.add_argument('-a','--atom', metavar='False', type=str, required=False, help='Turn on/off for sorting atom number (default: False)', default=False)
+parser.add_argument('-a','--atom', metavar='False', type=str, required=False, help='Turn on/off for sorting atom number (default: False)', default="False")
 parser.add_argument('--version', help='ConvAA2lig v2.0', action='version', version='%(prog)s v2.0')
 args = parser.parse_args()
 
