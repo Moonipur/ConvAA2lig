@@ -2,7 +2,7 @@
 
 if [ -f ~/.bashrc ];
 then
-   Loc=`find "$(cd ..; pwd)" -name "ConvAA2lig.py"`;
+   Loc=`find "$(pwd)" -name "ConvAA2lig.py"`;
    echo "alias ConvAA2lig='python3 ${Loc}'" >> ~/.bashrc;
    source ~/.bashrc;
    echo "Installation is already finished";
