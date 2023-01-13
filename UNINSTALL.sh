@@ -2,9 +2,9 @@
 
 comm=`find "$(pwd)" -name "ConvAA2lig.py"`
 
-Loc=`grep -n "alias ConvAA2lig='python3 ${comm}'" ~/.bashrc | cut -b 1-3`
+Loc=`grep -n "alias ConvAA2lig='python3 ${comm}'" ~/.bashrc | cut -d: -f1`
 
-sed -i "${Loc}" ~/.bashrc 
+sed -i "${Loc}d" ~/.bashrc 
 
 source ~/.bashrc
 
